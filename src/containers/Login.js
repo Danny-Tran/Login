@@ -5,8 +5,8 @@ const Home = () => {
     return (
         <div className="Home">
           <div className="lander">
-            <h1>HOME</h1>
-            <p>This is home page component</p>
+            <h1>Login</h1>
+            <p>this is login component</p>
           </div>
         </div>
       );
