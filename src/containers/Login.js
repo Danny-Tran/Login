@@ -1,15 +1,18 @@
 import React from 'react';
-import './Home.css';
+import './styles/Login.css';
+import Form from 'react-bootstrap/lib/Form.js';
+import Button from 'react-bootstrap/lib/Button.js';
 
-const Home = () => {
+
+const Login = () => {
     return (
-        <div className="Home">
+        <div className="Login">
           <div className="lander">
-            <h1>Login</h1>
-            <p>this is login component</p>
+            <h1>LOGIN</h1>
+            <Button className="center" bsStyle="primary">Login</Button>
           </div>
         </div>
       );
 };
 
-export default Home;
+export default Login;

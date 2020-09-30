@@ -3,24 +3,25 @@ import { Link } from "react-router-dom";
 import { Navbar } from "react-bootstrap";
 import "./App.css";
 import Routes from './Routes';
-import { Button } from 'react-bootstrap';
+import Button from 'react-bootstrap/lib/Button';
 
 function App() {
   return (
     <div className="App container">
-      <Navbar fluid collapseOnSelect>
+      {/* NAV bar  */}
+      <Navbar>
+
         <Navbar.Header>
-          
           <Navbar.Brand>
-            <Link to="/">Nav bar Brand</Link>
+            <Link to="/">Nav bar's Brand</Link>
           </Navbar.Brand>
-
-          <Button className="pull-right" bsStyle="primary">
-            <Link to="/login" style={{ color: 'white', textDecoration: 'none' }}>Login</Link>
-          </Button>
-
         </Navbar.Header>
+
+        <Button className="pull-right" bsStyle="primary" href="/login">Login</Button>
+
       </Navbar>
+
+      {/* Pages contents */}
       <Routes />
     </div>
   );
