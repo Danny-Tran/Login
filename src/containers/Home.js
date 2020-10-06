@@ -7,6 +7,7 @@ const Home = () => {
           <div className="lander">
             <h1>HOME</h1>
             <p>This is home page component</p>
+            <p>This is home page component 2</p>
           </div>
         </div>
       );
