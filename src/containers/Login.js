@@ -3,7 +3,7 @@ import './styles/Login.css';
 import {Button, Form, FormControl, ControlLabel } from 'react-bootstrap';
 
 
-
+// login component that located on the nav bar redirect to Login page
 const Login = () => {
   return (
     <div className="Login-Wrapper">
