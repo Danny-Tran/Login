@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/Home.css';
 
+// Home component, this is the main page
 const Home = () => {
     return (
         <div className="Home">
