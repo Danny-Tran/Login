@@ -11,7 +11,7 @@ export default function Routes() {
         <Home />
       </Route>
 
-      <Route exact path="/login">
+      <Route exact path="/logins">
         <Login />
       </Route>
     </Switch>

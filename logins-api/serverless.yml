@@ -18,7 +18,7 @@ provider:
   # These environment variables are made available to our functions
   # under process.env.
   environment:
-    tableName: notes
+    tableName: logins
 
   # 'iamRoleStatements' defines the permission policy for the Lambda function.
   # In this case Lambda functions are granted with permissions to access DynamoDB.
@@ -45,7 +45,7 @@ functions:
     handler: create.main
     events:
       - http:
-          path: notes
+          path: logins
           method: post
           cors: true
           authorizer: aws_iam

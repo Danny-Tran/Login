@@ -17,7 +17,7 @@ function App() {
           </Navbar.Brand>
         </Navbar.Header>
 
-        <Button className="pull-right" bsStyle="primary" href="/login">Login</Button>
+        <Button className="pull-right" bsStyle="primary" href="/logins">Login</Button>
 
       </Navbar>
 
