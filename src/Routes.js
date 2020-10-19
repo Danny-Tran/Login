@@ -7,6 +7,7 @@ import Login from './containers/Login'
 export default function Routes() {
   return (
     <Switch>
+
       <Route exact path="/">
         <Home />
       </Route>
@@ -14,6 +15,7 @@ export default function Routes() {
       <Route exact path="/logins">
         <Login />
       </Route>
+      
     </Switch>
   );
 }
